@@ -1,0 +1,7 @@
+package hunre.edu.dh9c;
+
+public class Draw {
+  public void ve() {
+	  System.out.print("Day la chuong trinh ve hinh");
+  }
+}

@@ -1,0 +1,22 @@
+package hunre.edu.dh9c;
+
+public class msgHello {
+	private String msg;
+
+	public String getMsg() {
+		return msg;
+	}
+
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+
+	public msgHello(String msg) {
+		super();
+		this.msg = msg;
+	}
+
+	public static void MsgOut() {
+		System.out.prinnt("this is greetting message: " + this.msg);
+	}
+}
